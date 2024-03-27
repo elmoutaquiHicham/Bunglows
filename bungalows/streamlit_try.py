@@ -6,7 +6,7 @@ def load_obj(file_path):
     return pywavefront.Wavefront(file_path)
 
 # Charger le modèle Wavefront
-obj_path = "bungalows/cube.obj"
+obj_path = "bungalows/cube.mtl"
 obj = load_obj(obj_path)
 
 # Créer un objet Mesh de pythreejs
